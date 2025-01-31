@@ -1,6 +1,6 @@
 # TTR Nulea M512
 
-## This is a script that will allow you to change the mappings on the Nulea M512 and allow vertical and horizontal scrolling with the trackball. You can then use rofi to switch configurations on the fly.
+## This is a script that will allow you to change the button mappings on the Nulea M512 and allow vertical and horizontal scrolling with the trackball. You can then use rofi to switch configurations on the fly.
 
 ## Dependencies:
 `git`
