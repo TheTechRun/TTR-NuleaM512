@@ -1,6 +1,6 @@
-# TTR Kensington.
+# TTR Nulea M512.
 
-## This is a script that will allow you to change the mappings on the Kensington Expert Wireless and allow vertical and horizontal scrolling with the trackball. You can then use rofi to switch configurations on the fly.
+## This is a script that will allow you to change the mappings on the Nulea M512 and allow vertical and horizontal scrolling with the trackball. You can then use rofi to switch configurations on the fly.
 
 ## Dependencies:
 `git`
@@ -16,7 +16,7 @@ chmod +x ~/.scripts/TTR-NuleaM512/*.sh
 ```
 
 ## Instructions:
-### 1. Run the `map-keys.sh`
+### 1. Run the `mapper.sh`
 ```
 ~/.scripts/TTR-NuleaM512/mapper.sh
 ```
@@ -67,9 +67,9 @@ exec_always --no-startup-id ~/.scripts/TTR-NuleaM512/saved-mappings/lefty.sh
 #### c). Add it to systemD timer.
 Example for NixOS in configuration.nix:
 ```
-# Kensington Expert
+# Nulea M512
   systemd.user.services.enable-scroll = {
-    description = "Remaps and enable scrolling with Kensington Expert button";
+    description = "Remaps and enable scrolling with Nulea M512 button";
     wantedBy = [ "default.target" ];
     script = "${pkgs.bash}/bin/bash ~/.scripts/TTR-NuleaM512/saved-mappings/lefty.sh";
   };
@@ -81,6 +81,6 @@ Run this command to get your mouse name:
 ```
 xinput list | grep -i Compx
 ```
-Now in `mapper.sh` replace "Kensington Expert Wireless TB Mouse" with the right output name.
+Now in `mapper.sh` replace "KCompx 2.4G Receiver Mouse" with the right output name.
 
-I also made a script like this for the [Kensington Expert](https://github.com/TheTechRun/TTR-KensingtonExpert).
+I also made a script like this for the [Kensington Expert](https://github.com/TheTechRun/TTR-NuleaM512).
