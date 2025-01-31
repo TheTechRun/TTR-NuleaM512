@@ -83,4 +83,4 @@ xinput list | grep -i Compx
 ```
 Now in `mapper.sh` replace "Compx 2.4G Receiver Mouse" with the right output name.
 
-I also made a script like this for the [Kensington Expert](https://github.com/TheTechRun/TTR-NuleaM512).
+I also made a script like this for the [Kensington Expert](https://github.com/TheTechRun/TTR-KensingtonExpert).
