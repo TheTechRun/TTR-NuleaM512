@@ -1,4 +1,4 @@
-# TTR Nulea M512.
+# TTR Nulea M512
 
 ## This is a script that will allow you to change the mappings on the Nulea M512 and allow vertical and horizontal scrolling with the trackball. You can then use rofi to switch configurations on the fly.
 
@@ -81,6 +81,6 @@ Run this command to get your mouse name:
 ```
 xinput list | grep -i Compx
 ```
-Now in `mapper.sh` replace "KCompx 2.4G Receiver Mouse" with the right output name.
+Now in `mapper.sh` replace "Compx 2.4G Receiver Mouse" with the right output name.
 
 I also made a script like this for the [Kensington Expert](https://github.com/TheTechRun/TTR-NuleaM512).
